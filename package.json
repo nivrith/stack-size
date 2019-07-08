@@ -21,7 +21,8 @@
     "prepublishOnly": "npm run compile",
     "pretest": "npm run compile",
     "clean": "del-cli dist",
-    "docs": "typedoc src"
+    "docs": "typedoc src",
+    "release": "npx np"
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
@@ -51,6 +52,7 @@
     "del-cli": "^2.0.0",
     "jasmine": "^3.4.0",
     "mocha": "^6.1.4",
+    "np": "^5.0.3",
     "nyc": "^14.1.1",
     "sinon": "^7.3.2",
     "ts-node": "^8.3.0",
