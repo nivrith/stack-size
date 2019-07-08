@@ -1,6 +1,6 @@
 {
   "name": "stack-size",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Get Maximum Call Stack Size of JS runtime",
   "main": "index.js",
   "repository": "https://github.com/nivrith/stack-size",
